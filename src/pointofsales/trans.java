@@ -1208,6 +1208,9 @@ public void invoice()
         txtbill.setText(txtbill.getText()+"________________________________________________\n");
         txtbill.setText(txtbill.getText()+ "\n");
         for(int i = 0; i<model.getRowCount();i++)
+            
+            
+            
         {
             //      String pname = (String)model.getValueAt(i,0).toString();
             String qty = (String)model.getValueAt(i,1).toString();
