@@ -284,7 +284,7 @@ public class sales extends javax.swing.JFrame {
                 sum2 =Double.parseDouble(jTable1.getValueAt((int) i, 2).toString())  + sum2;
                
             }
-            txtsales.setText(String.valueOf(df.format(sum)));
+                txtsales.setText(String.valueOf(df.format(sum)));
                 lbldisc.setText(String.valueOf(df.format(sum2)));
         } catch (Exception e) {
         }
